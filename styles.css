@@ -1,21 +1,22 @@
 body
 {
-    /* background-color:aqua; */
+    
     background-color: #fffbf7;
+    /* background-color:aqua; */
 }
 
 h1 {
-    /* color: blue; */
     color:#025157;
+    /* color: blue; */
 }
 h3
 {
-    /* color:darkblue; */
     color: #46484c;
+    /* color:darkblue; */
 }
 p {
-    /* color:gray; */
     color: #8b8b8bcc;
+    /* color:gray; */
 }
 button
 {
