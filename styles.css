@@ -3,6 +3,8 @@ body
     
     background-color: #fffbf7;
     /* background-color:aqua; */
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -24,4 +26,128 @@ button
     background-color: #025157;
     /* color: aliceblue;
     background-color: blue; */
+}
+img{
+    width: 100%;
+}
+figure{
+    width: 40%;
+}
+
+.main{
+    text-align: center;
+}
+.main h1{
+    familia tipográfica: 'Alegreya', serif;
+    font: size 48px;
+    
+}
+
+.header {
+    /* margin-top: 40px;
+    margin-right: 20px;
+    margin-top: 20px;*/ 
+    Margin 40px 20px 0;
+    font-size: 0px;
+    padding: 20px;
+}
+.header > *{
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;  /* Interlineado */
+}
+.header li{
+    display: inline;
+    margin: 0 15px;
+}
+.header ul{
+    padding: 0;
+}
+.logo-matcha{
+    width: 50px;
+}
+.imagen-matcha{
+    width: 20%;
+}
+.navbar{
+    width: 60%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+.actions{
+    width: 20%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+.actions a{
+    color:green;
+    text-decoration: none;
+    margin: 015px;
+}
+.actions button{
+    border-radius: 5px;
+    background-color: green;
+    color:#ffffff;
+    border: none;
+    padding: 20px;
+}
+
+.first-image{
+    width: 20%;
+}
+.second-image
+{
+    width: 60%;
+}
+.image-head{
+    width: 5%;
+}
+
+.publish{
+    display: flex;
+    width: 70%;
+    margin:100 px auto;
+    align-items:center;
+}
+
+.publish .publicidad .titulo-publish{
+    font-family: 'Alegreya', serif;
+    font-size: 36px;
+    font-weight: 900;
+    color: #025157;
+}
+
+.publish .publicidad .color-gris
+{
+    color: #8b8b8bcc;
+}
+
+.publish .video {
+    flex 1;
+}
+
+.publish .video .video-contenedor
+{
+    width: 90%;
+}
+
+.publish .video .cuadro-video{
+    width: 100%;
+}
+
+.publish .video .see-how-it-work{
+    display: flex;
+    justify-content: center;
+}
+
+.publish .video .see-how-it-work .green-arrow{
+    width: 50px;
+}
+
+.publicidad{
+    flex 1;
 }
