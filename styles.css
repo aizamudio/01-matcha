@@ -108,9 +108,10 @@ figure{
 }
 
 .publish{
+    flex: 1;
     display: flex;
-    width: 70%;
-    margin:100 px auto;
+    width: 80%;
+    margin:50 px auto;
     align-items:center;
 }
 
@@ -145,7 +146,7 @@ figure{
 }
 
 .publish .video .see-how-it-work .green-arrow{
-    width: 50px;
+    width: 20px;
 }
 
 .publicidad{
