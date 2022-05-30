@@ -5,29 +5,26 @@ body
     /* background-color:aqua; */
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Alegreya', serif;
 }
 
 h1 {
     color:#025157;
-    /* color: blue; */
 }
-h3
-{
+h2 {
+    color: #000000;
+}
+h3 {
     color: #46484c;
-    /* color:darkblue; */
 }
 p {
     color: #8b8b8bcc;
-    /* color:gray; */
 }
-button
-{
+button {
     color: #ffffff;
     background-color: #025157;
-    /* color: aliceblue;
-    background-color: blue; */
 }
-img{
+img {
     width: 100%;
 }
 figure{
@@ -151,4 +148,30 @@ figure{
 
 .publicidad{
     flex 1;
+}
+
+.growing-ecom{
+    background-color: #a1d683;
+    /*margin: 15px; */
+}
+
+.growing-ecom .info{
+    color: #00000;
+}
+
+.info {}
+
+.enca-info {
+    font-family: 'Alegreya', serif;
+    font-size: 51px;
+    line-height: 61px;
+    color: #025157;
+}
+
+.p-info {
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+
 }
