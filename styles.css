@@ -34,17 +34,13 @@ figure{
 .main{
     text-align: center;
 }
-.main h1{
-    familia tipográfica: 'Alegreya', serif;
-    font: size 48px;
-    
+.main h1 {
+    font-family: 'Alegreya', serif;
+    font-size: 48px;
 }
 
 .header {
-    /* margin-top: 40px;
-    margin-right: 20px;
-    margin-top: 20px;*/ 
-    Margin 40px 20px 0;
+    Margin: 40px 20px 0;
     font-size: 0px;
     padding: 20px;
 }
@@ -125,7 +121,7 @@ figure{
 }
 
 .publish .video {
-    flex 1;
+    flex: 1;
 }
 
 .publish .video .video-contenedor
@@ -146,20 +142,26 @@ figure{
     width: 20px;
 }
 
-.publicidad{
-    flex 1;
+.publicidad {
+    flex: 1;
 }
 
-.growing-ecom{
+.growing-ecom {
     background-color: #a1d683;
-    /*margin: 15px; */
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.growing-ecom .info{
-    color: #00000;
+.growing-ecom .info {
+    color: #000000;
 }
 
-.info {}
+.info {
+    flex: 2;
+    padding-right: 100px;
+}
 
 .enca-info {
     font-family: 'Alegreya', serif;
@@ -173,5 +175,67 @@ figure{
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 1rem;
-
+}
+.button-info {
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
+    margin-left: 0;
+}
+.info .figure {
+    margin-top: 32px;
+    margin: 0 0 1rem;
+}
+.sliders-ge {
+    flex: 1;
+    background-color: #ffffff;
+}
+.photo-slide {
+    position: relative;
+}
+.img-slide {
+    width: 100%;
+    /* max-width: 16vw;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+}
+.logo-slide {
+    position: absolute;
+    bottom:  -20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #f9da73;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-slide {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+.results {
+    display: flex;
+    align-items: center;
+    color: #828282;
+}
+.card-footer {
+    margin-bottom: 20px;
+    background-color: unset;
+    border-top: unset;
+    padding: 25px;
+}
+.card-footer button {
+    display: block;
+    margin-left: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 12px 20px;
+    width: 100%;
 }
