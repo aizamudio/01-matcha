@@ -24,6 +24,13 @@ button {
     color: #ffffff;
     background-color: #025157;
 }
+.main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}
 img {
     width: 100%;
 }
@@ -33,6 +40,7 @@ figure{
 
 .main{
     text-align: center;
+    margin: 260px;
 }
 .main h1 {
     font-family: 'Alegreya', serif;
@@ -43,6 +51,7 @@ figure{
     Margin: 40px 20px 0;
     font-size: 0px;
     padding: 20px;
+    /* position: fixed; */
 }
 .header > *{
     display: inline-block;
@@ -153,6 +162,61 @@ figure{
     align-items: center;
     justify-content: space-around;
 }
+
+.features {
+    background-color: #025157;
+    padding: 5% 10%;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    height: 600px;
+    /* margin-bottom: 200px; */
+}
+.feature-card {
+    margin: 0 15px 20px;
+    background-color: #fffbf7;
+    margin-bottom: 30px;
+}
+.feature-content {
+    background-color: #fffbf7;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.feature-content .feature-text {
+    flex: 2; 
+    padding: 15px 20px;
+}
+.feature-content .feature-text h3 {
+    font-size: 24px;
+    color: #343434;
+
+}
+
+
+.feature-content .feature-image {
+    flex: 1;
+}
+.feature-image {
+    background-color: #fffbf7;
+}
+.feature-image figure {
+   margin-left: 0;
+}
+
+.movimiento{
+    transition: width 1s;
+}
+.movimiento.hover {
+    width: 150%;
+}
+
+
+.feature-image figure img {
+    width: 100%;
+}
+
 
 .growing-ecom .info {
     color: #000000;
