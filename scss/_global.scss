@@ -1,0 +1,14 @@
+// colores
+
+$dark-green-title: #025157;
+$dark-green-text: #135359;
+$white: #fff;
+
+//Fuentes
+$font-title: 'Alegreya', serif;
+
+// Placeholders
+%base-title {
+    font-family: $font-title;
+    color: $dark-green-text;
+}
